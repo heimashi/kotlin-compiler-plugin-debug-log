@@ -1,13 +1,13 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
-    id "debuglog.plugin"
+//    id "debuglog.plugin"
 }
 
-debugLog {
-    enabled = true
-    annotations = ["com.sw.myapplication.Log"]
-}
+//debugLog {
+//    enabled = true
+//    annotations = ["com.sw.myapplication.Log"]
+//}
 
 android {
     compileSdkVersion 30

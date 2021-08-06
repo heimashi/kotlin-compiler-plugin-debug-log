@@ -19,7 +19,7 @@ allprojects {
     repositories {
         google()
         mavenCentral()
-        maven { url uri("$rootDir/local_maven") }
+        maven { url =  uri("$rootDir/local_maven") }
         jcenter() // Warning: this repository is going to shut down soon
     }
 }
